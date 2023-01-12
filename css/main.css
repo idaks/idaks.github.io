@@ -1,0 +1,53 @@
+.nav-item > .active {
+    color: rgb(255,75,41);
+}
+
+.nav-item > a:hover {
+    background-color: rgb(255,75,41);
+}
+
+strong {
+    color: rgb(255,75,41);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.member > a {
+    color: rgb(20,37,66);
+}
+
+.color-i-blue {
+    color: rgb(20,37,66);
+}
+
+.color-i-orange {
+    color: rgb(255,75,41);
+}
+
+.img-responsive{
+    display: block; 
+    max-width: 100%; 
+    height: auto
+}
+
+.img-headshot{
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #888888;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: none
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center
+}
